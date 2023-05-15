@@ -5,7 +5,7 @@ function threeSum(arr, target) {
 	let sum1 = arr[0]+arr[1];
 	for(let i=2;i<arr.length;i++){
 		sum1+=arr[i];
-		if(sum1>= target && sum1 < target){
+		if(sum1> target && ){
 			return sum1;
 		}
 	}
