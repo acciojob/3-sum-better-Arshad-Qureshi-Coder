@@ -4,6 +4,7 @@ function threeSum(arr, target) {
 	 let ans=0;
 	arr.sort();
  for(let i=0; i<arr.length;i++){
+	 while(i>0 && arr[i-1]==arr[i]) continue;
 	 let j=i+1;
 	 let k=arr.length-1;
 	 while(j<k){
